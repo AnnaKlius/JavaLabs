@@ -2,7 +2,7 @@ package LabWork4;
 
 public class Task2 {
 
-    public static int findSum(int[] array) {
+    private static int findSum(int[] array) {
         if (array == null || array.length < 3) {
             throw new IllegalArgumentException("Масив повинен містити щонайменше три елементи.");
         }

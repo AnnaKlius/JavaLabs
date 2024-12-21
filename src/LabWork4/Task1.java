@@ -2,7 +2,7 @@ package LabWork4;
 
 public class Task1 {
 
-    public static int findDifference(int[] array) {
+    private static int findDifference(int[] array) {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Масив не може бути null або порожнім.");
         }
